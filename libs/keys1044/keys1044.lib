@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Keystone 1044
+#
+DEF 1044 BT 0 40 Y Y 1 L N
+F0 "BT" 0 300 50 H V L CNN 
+F1 "1044" 0 400 50 H V L CNN 
+F2 "Keystone-1044-0-0-*" 0 500 50 H I L CNN 
+F3 "https://www.keyelco.com/userAssets/file/M65p27.pdf" 0 600 50 H I L CNN 
+F4 "Batt" 0 700 50 H I L CNN "category"
+F5 "Tin,Nickel" 0 800 50 H I L CNN "contact material"
+F6 "Connectors" 0 900 50 H I L CNN "device class L1"
+F7 "Power Connectors" 0 1000 50 H I L CNN "device class L2"
+F8 "unset" 0 1100 50 H I L CNN "device class L3"
+F9 "SINGLE 18650 HOLDER SOLDER TAIL" 0 1200 50 H I L CNN "digikey description"
+F10 "36-1044-ND" 0 1300 50 H I L CNN "digikey part number"
+F11 "https://www.keyelco.com/product-pdf.cfm?p=14060" 0 1400 50 H I L CNN "footprint url"
+F12 "15.11mm" 0 1500 50 H I L CNN "height"
+F13 "yes" 0 1600 50 H I L CNN "lead free"
+F14 "b0a6585d525eb52e" 0 1700 50 H I L CNN "library id"
+F15 "Keystone" 0 1800 50 H I L CNN "manufacturer"
+F16 "534-1044" 0 1900 50 H I L CNN "mouser part number"
+F17 "2" 0 2000 50 H I L CNN "number of contacts"
+F18 "PTH_BTTHLDR_77MM06_20MM65" 0 2100 50 H I L CNN "package"
+F19 "yes" 0 2200 50 H I L CNN "rohs"
+F20 "+145°C" 0 2300 50 H I L CNN "temperature range high"
+F21 "-50°C" 0 2400 50 H I L CNN "temperature range low"
+DRAW
+P 2 1 1 0 100 100 -100 100 N
+P 2 1 1 0 50 40 -50 40 N
+P 2 1 1 0 100 -30 -100 -30 N
+P 2 1 1 0 50 -100 -50 -100 N
+T 1 100 180 60 1 1 +
+T 0 150 -200 60 1 1 -
+P 2 1 1 0 0 100 0 200 N
+P 2 1 1 0 0 -100 0 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library
