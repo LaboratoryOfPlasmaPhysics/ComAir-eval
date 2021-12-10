@@ -256,8 +256,6 @@ Wire Wire Line
 	3975 2900 3975 2725
 Connection ~ 3975 2725
 Wire Wire Line
-	3975 2725 4750 2725
-Wire Wire Line
 	3825 3250 3975 3250
 Connection ~ 3975 3250
 $Comp
@@ -303,8 +301,6 @@ Wire Wire Line
 	6450 4475 6400 4475
 Text Label 7175 2975 0    50   ~ 0
 Batt
-Wire Wire Line
-	6400 3875 7450 3875
 Wire Wire Line
 	7450 3875 7450 3950
 $Comp
@@ -376,12 +372,12 @@ Text HLabel 7550 2975 2    50   Input ~ 0
 Batt
 Text HLabel 2875 2725 0    50   Input ~ 0
 SolarCell
-Text HLabel 6475 3375 2    50   Input ~ 0
+Text HLabel 7575 3375 2    50   Input ~ 0
 ~BATT_CHRG
 Text HLabel 6450 3575 2    50   Input ~ 0
 ~BATT_CONN
 Wire Wire Line
-	6475 3375 6400 3375
+	7575 3375 7000 3375
 Wire Wire Line
 	6400 3575 6450 3575
 Wire Wire Line
@@ -452,5 +448,70 @@ F 3 "~" H 9225 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 2975 7550 2975
+	6400 2975 6775 2975
+$Comp
+L Connector:TestPoint TP201
+U 1 1 61E1D510
+P 3400 2475
+F 0 "TP201" H 3458 2593 50  0000 L CNN
+F 1 "TestPoint" H 3458 2502 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3600 2475 50  0001 C CNN
+F 3 "~" H 3600 2475 50  0001 C CNN
+	1    3400 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP202
+U 1 1 61E1DE2F
+P 6775 2850
+F 0 "TP202" H 6833 2968 50  0000 L CNN
+F 1 "TestPoint" H 6833 2877 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6975 2850 50  0001 C CNN
+F 3 "~" H 6975 2850 50  0001 C CNN
+	1    6775 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP203
+U 1 1 61E207CA
+P 7150 3750
+F 0 "TP203" H 7208 3868 50  0000 L CNN
+F 1 "TestPoint" H 7208 3777 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7350 3750 50  0001 C CNN
+F 3 "~" H 7350 3750 50  0001 C CNN
+	1    7150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3875 7450 3875
+Connection ~ 6775 2975
+Wire Wire Line
+	6775 2975 7550 2975
+Wire Wire Line
+	6775 2850 6775 2975
+Wire Wire Line
+	7150 3750 7150 3875
+Wire Wire Line
+	7150 3875 6400 3875
+Connection ~ 7150 3875
+Wire Wire Line
+	3400 2475 3400 2725
+$Comp
+L Connector:TestPoint TP204
+U 1 1 61E386CF
+P 7000 3250
+F 0 "TP204" H 7058 3368 50  0000 L CNN
+F 1 "TestPoint" H 7058 3277 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7200 3250 50  0001 C CNN
+F 3 "~" H 7200 3250 50  0001 C CNN
+	1    7000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3250 7000 3375
+Connection ~ 7000 3375
+Wire Wire Line
+	7000 3375 6400 3375
+Wire Wire Line
+	3975 2725 4750 2725
 $EndSCHEMATC

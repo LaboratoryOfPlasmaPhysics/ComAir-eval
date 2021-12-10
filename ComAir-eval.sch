@@ -1273,4 +1273,37 @@ Text Label 9825 3875 2    50   ~ 0
 LORA_DIO4
 Wire Wire Line
 	9825 3875 10100 3875
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO101
+U 1 1 61B43151
+P 1050 7450
+F 0 "LOGO101" H 1050 7725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1050 7225 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_5mm_SilkScreen" H 1050 7450 50  0001 C CNN
+F 3 "~" H 1050 7450 50  0001 C CNN
+	1    1050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO102
+U 1 1 61B50507
+P 1550 7450
+F 0 "LOGO102" H 1550 7725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1550 7225 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 1550 7450 50  0001 C CNN
+F 3 "~" H 1550 7450 50  0001 C CNN
+	1    1550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO103
+U 1 1 61B5DB79
+P 2075 7450
+F 0 "LOGO103" H 2075 7725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2075 7225 50  0001 C CNN
+F 2 "libs:qrcode" H 2075 7450 50  0001 C CNN
+F 3 "~" H 2075 7450 50  0001 C CNN
+	1    2075 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
