@@ -1012,14 +1012,14 @@ Text Label 3975 5175 2    50   ~ 0
 LORA_DIO0
 Text Label 3975 5275 2    50   ~ 0
 LORA_DIO1
-Text Label 5825 5075 0    50   ~ 0
+Text Label 6125 4575 0    50   ~ 0
 LORA_DIO2
 Text Label 3975 4975 2    50   ~ 0
 LORA_DIO3
 Text Label 3975 5075 2    50   ~ 0
 LORA_DIO4
 Wire Wire Line
-	5825 5075 5650 5075
+	6125 4575 5650 4575
 Wire Wire Line
 	3050 925  3125 925 
 Text Label 3125 925  0    50   ~ 0
@@ -1306,4 +1306,64 @@ F 3 "~" H 2075 7450 50  0001 C CNN
 	1    2075 7450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 61C95609
+P 8300 1400
+F 0 "J1" H 8380 1442 50  0000 L CNN
+F 1 "Conn_01x05" H 8380 1351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8300 1400 50  0001 C CNN
+F 3 "~" H 8300 1400 50  0001 C CNN
+	1    8300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 61C9F8D4
+P 7900 1750
+F 0 "#PWR0138" H 7900 1500 50  0001 C CNN
+F 1 "GND" H 7905 1577 50  0000 C CNN
+F 2 "" H 7900 1750 50  0001 C CNN
+F 3 "" H 7900 1750 50  0001 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1200 7725 1200
+Text Label 7725 1200 0    50   ~ 0
+3V3
+Wire Wire Line
+	8100 1600 7900 1600
+Wire Wire Line
+	7900 1600 7900 1750
+Wire Wire Line
+	8100 1500 7725 1500
+Wire Wire Line
+	8100 1400 7725 1400
+Wire Wire Line
+	8100 1300 7725 1300
+Text Label 7725 1300 0    50   ~ 0
+~RESET
+Text Label 7725 1400 0    50   ~ 0
+SWDIO
+Text Label 7725 1500 0    50   ~ 0
+SWDCLK
+Wire Wire Line
+	5650 5175 6025 5175
+Wire Wire Line
+	5650 5075 6025 5075
+Text Label 6025 5075 2    50   ~ 0
+SWDIO
+Text Label 6025 5175 2    50   ~ 0
+SWDCLK
+Wire Notes Line
+	7500 700  9400 700 
+Wire Notes Line
+	9400 700  9400 2050
+Wire Notes Line
+	9400 2050 7500 2050
+Wire Notes Line
+	7500 2050 7500 700 
+Text Notes 8575 850  0    50   ~ 0
+SWD debug probe
 $EndSCHEMATC
