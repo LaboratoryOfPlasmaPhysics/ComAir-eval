@@ -8105,7 +8105,7 @@
   (gr_text "Solar cell" (at 46.4185 46.2915) (layer "F.SilkS") (tstamp 0e416ef5-3e03-4fa4-b2a6-3ab634a5ee03)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "ComAir-Eval 1.0" (at 57.15 96.52) (layer "F.SilkS") (tstamp 87a32952-c8e5-40ba-af1d-1a8829a6c906)
+  (gr_text "ComAir-Eval 1.1" (at 57.15 96.52) (layer "F.SilkS") (tstamp 87a32952-c8e5-40ba-af1d-1a8829a6c906)
     (effects (font (size 2 2) (thickness 0.4)))
   )
   (gr_text "DIO4" (at 103.886 97.9805 270) (layer "F.SilkS") (tstamp a1d977e9-aa2c-4b7a-b2e3-8ff3b816e1f2)
